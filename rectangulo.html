@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <title>El titulo de la pagina</title>
+    </head>
+    <body>
+        <div id="app">
+
+            <h1><strong>Clases</strong></h1>
+            <h3>Creación de rectangulos, cuadrados y triangulos</h3>
+            
+
+            <label for="base"><p style="color:blue"><strong>Base</strong></p></label>
+                <input type="text" id="labase" placeholder="Ingresa la base" ><br>
+            <label for="altura"><p style="color:blue"><strong>Altura</strong></p></label>
+                <input type="text" id="altura" placeholder="Ingresa la altura" ><br>
+            <label for="lado"><p style="color:blue"><strong>Lado 1</strong></p></label>    
+                <input type="text" id="lado" placeholder="Ingrese el lado1"><br>
+            <label for="ellado"><p style="color:blue"><strong>Lado 2</strong></p></label>   
+                <input type="text" id="ellado" placeholder="Ingresa el lado2"><br>
+               
+
+            <button id="btnRectangulo"class="btn btn-success">Crear rectangulo</button><br>
+            <br><button id="btnTriangulo" class="btn btn-success">Crear triangulo</button><br>
+            <br><button id="btnCuadrado" class="btn btn-success">Crear Cuadrado</button><br>
+            
+            <ol><br><p style="color:red"><strong>->Estos son los pasos a seguir</strong></p>
+                <li><strong>Inserta los numeros en las barras de texto</strong></li>
+                <li><strong>Da click en el boton de la figura que quieras obtener el área</strong></li>
+                <li><strong>Observa el resultado y compruebe</strong></li>
+            </ol>
+            <img src="cua.jpg" alt="una fiugra Cuadrado" width="200" height="200">
+            <img src="rec.jpg" alt="una fiugra Cuadrado" width="200" height="200">
+            <img src="tri.png" alt="una fiugra Cuadrado" width="200" height="200">
+
+
+            <div id="resultados">
+            </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
